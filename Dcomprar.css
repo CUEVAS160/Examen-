@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Honk&family=Single+Day&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo gris claro */
+    font-family: 'Gowun Batang', sans-serif;
+    color: #333;
+}
+
+img {
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    background-color: #343a40; /* Color de fondo del menú */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    vertical-align: middle;
+    border-radius: 50%;
+    max-width: 80px;
+}
+
+.menu-elementos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-elementos li {
+    margin-right: 20px;
+}
+
+.menu-elementos li:last-child {
+    margin-right: 0;
+}
+
+.menu-elementos li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-elementos li a:hover {
+    background-color: #555;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.celulares-list {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #343a40; /* Color de fondo del footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
